@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-backend-developer-main',
+  selector: 's_zanardo92.github.io',
   standalone: true,
   imports: [CommonModule, FormsModule],
-  templateUrl: './backend-developer-main.component.html',
-  styleUrls: ['./backend-developer-main.component.css']
+  templateUrl: './s_zanardo92.github.io.index.html',
+  styleUrls: ['./s_zanardo92.github.io.component.ts']
 })
 export class BackendDeveloperMainComponent implements OnInit {
   projects = [
